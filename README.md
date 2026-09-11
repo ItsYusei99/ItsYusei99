@@ -2,7 +2,7 @@
 
 Estudiante de **Ingeniería de Software** en Universidad Tecmilenio. Me apasiona construir cosas que funcionen bien por dentro y se sientan bien por fuera: desde diseñar flujos de datos en la nube hasta desarrollar aplicaciones nativas para **iOS** y crear **mods de Minecraft** en Java.
 
-Cuando no estoy escribiendo código o peleando con dependencias, probablemente me encuentres en el gimnasio o trasteando con servidores y Linux.
+Cuando no estoy escribiendo código o peleando con dependencias, probablemente me encuentres en el gimnasio o experimentando con servidores y Linux.
 
 ---
 
