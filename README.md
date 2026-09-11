@@ -17,32 +17,33 @@ El modding de Minecraft es uno de mis terrenos favoritos para experimentar con a
 
 ### 🛠️ Lo que suelo usar
 
-**Desarrollo de Software:**
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-FA7343?style=flat-square&logo=swift&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+**Lenguajes & Frameworks:**
 
-**Data Engineering & Cloud:**
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+[![Skills](https://skillicons.dev/icons?i=java,swift,php,laravel,postgres&theme=dark)](https://skillicons.dev)
+
+**Cloud, Data & Herramientas:**
+
+[![Tools](https://skillicons.dev/icons?i=aws,git,github,linux,vscode&theme=dark)](https://skillicons.dev)
+
 *S3 • AWS Glue • Athena • EMR • Data Lakes*
 
 ---
 
-### 🐍 Contribuciones
+### 📊 Contribuciones
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ItsYusei99/ItsYusei99/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ItsYusei99/ItsYusei99/output/github-contribution-grid-snake.svg">
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/ItsYusei99/ItsYusei99/output/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ItsYusei99/ItsYusei99/output/contrib-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ItsYusei99/ItsYusei99/output/contrib-light.svg">
+  <img alt="Animación de contribuciones" src="https://raw.githubusercontent.com/ItsYusei99/ItsYusei99/output/contrib-dark.svg">
 </picture>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=itsyusei99&show_icons=true&theme=tokyonight&hide_border=true" alt="Estadísticas de GitHub" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=itsyusei99&layout=compact&theme=tokyonight&hide_border=true" alt="Lenguajes más usados" />
+  <img src="https://github-readme-stats.shion.dev/api?username=ItsYusei99&show_icons=true&theme=tokyonight&hide_border=true" alt="Estadísticas de GitHub" />
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=ItsYusei99&layout=compact&theme=tokyonight&hide_border=true" alt="Lenguajes más usados" />
+  <br/>
+  <img src="https://streak-stats.demolab.com?user=ItsYusei99&theme=tokyonight&hide_border=true" alt="Racha de contribuciones" />
 </div>
 
 ---
