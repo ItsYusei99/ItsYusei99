@@ -52,7 +52,7 @@ El modding de Minecraft es uno de mis terrenos favoritos para experimentar con a
 
 - 💼 **LinkedIn:** [linkedin.com/in/itsyusei99](https://www.linkedin.com/in/itsyusei99/)
 - ✉️ **Email:** [jodidroks@gmail.com](mailto:jodidroks@gmail.com)
-- 📸 **Instagram:** [@evilnigga888](https://instagram.com/evilnigga888)
+- 📸 **Instagram:** [@evil_nigga888](https://instagram.com/evil_nigga888)
 
 <br/>
 
