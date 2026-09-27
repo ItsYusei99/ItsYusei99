@@ -45,6 +45,9 @@ PAD_X = 12
 PAD_TOP = 48
 PAD_BOTTOM = 28
 DELAY_STEP = 0.006
+FADE = 0.3        # fade-in de cada celda (s)
+PAUSE = 4.0       # pausa con el grid completo visible antes de repetir (s)
+FADE_OUT = 0.6    # fundido de salida al final de cada ciclo (s)
 
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
           "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
@@ -81,8 +84,18 @@ def build_svg(cal, palette, text_color, muted):
     w = len(weeks) * STEP + PAD_X * 2
     h = 7 * STEP + PAD_TOP + PAD_BOTTOM
 
+    n_cells = sum(len(week.get("contributionDays", [])) for week in weeks)
+    wave = n_cells * DELAY_STEP
+    cycle = wave + PAUSE + FADE_OUT
+    p_in = FADE / cycle * 100
+    p_out = (cycle - FADE_OUT) / cycle * 100
+
     parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">']
-    parts.append('<style>.cell{opacity:0;animation:fade .3s ease forwards}@keyframes fade{to{opacity:1}}.fade-end{opacity:0;animation:fade .5s ease forwards}</style>')
+    parts.append(
+        f'<style>.cell{{opacity:0;animation:wave {cycle:.2f}s ease infinite}}'
+        f'.fade-end{{opacity:0;animation:wave {cycle:.2f}s ease infinite}}'
+        f'@keyframes wave{{0%{{opacity:0}}{p_in:.1f}%{{opacity:1}}{p_out:.1f}%{{opacity:1}}100%{{opacity:0}}}}'
+        f'@media (prefers-reduced-motion:reduce){{.cell,.fade-end{{animation:none;opacity:1}}}}</style>')
     parts.append(f'<text x="{PAD_X}" y="18" font-size="13" font-weight="600" fill="{text_color}">{total} contributions in the last year</text>')
 
     last_month = None
@@ -110,7 +123,7 @@ def build_svg(cal, palette, text_color, muted):
                 f'fill="{palette[lv]}" style="animation-delay:{delay:.2f}s"><title>{tip}</title></rect>')
             idx += 1
 
-    total_dur = idx * DELAY_STEP + 0.5
+    total_dur = wave  # la leyenda aparece cuando termina la ola
     lx = w - PAD_X - 5 * (CELL + 3) - 78
     ly = h - 16
     parts.append(f'<g class="fade-end" style="animation-delay:{total_dur:.2f}s">')
@@ -120,7 +133,7 @@ def build_svg(cal, palette, text_color, muted):
     parts.append(f'<text x="{lx + 32 + 5 * (CELL + 3) + 4}" y="{ly + 9}" font-size="9" fill="{muted}">More</text>')
     parts.append('</g>')
     parts.append('</svg>')
-    return "\n".join(parts), total_dur
+    return "\n".join(parts), cycle
 
 
 def main():
