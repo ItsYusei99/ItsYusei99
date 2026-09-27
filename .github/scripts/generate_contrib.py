@@ -44,7 +44,7 @@ STEP = 13
 PAD_X = 12
 PAD_TOP = 34
 PAD_BOTTOM = 28
-DELAY_STEP = 0.018
+DELAY_STEP = 0.006
 
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
           "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
@@ -82,7 +82,7 @@ def build_svg(cal, palette, text_color, muted):
     h = 7 * STEP + PAD_TOP + PAD_BOTTOM
 
     parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">']
-    parts.append('<style>.cell{opacity:0;animation:fade .45s ease forwards}@keyframes fade{to{opacity:1}}.fade-end{opacity:0;animation:fade .8s ease forwards}</style>')
+    parts.append('<style>.cell{opacity:0;animation:fade .3s ease forwards}@keyframes fade{to{opacity:1}}.fade-end{opacity:0;animation:fade .5s ease forwards}</style>')
     parts.append(f'<text x="{PAD_X}" y="18" font-size="13" font-weight="600" fill="{text_color}">{total} contributions in the last year</text>')
 
     last_month = None
