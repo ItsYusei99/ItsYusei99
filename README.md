@@ -10,7 +10,7 @@ Cuando no estoy escribiendo código o peleando con dependencias, probablemente m
 El modding de Minecraft es uno de mis terrenos favoritos para experimentar con arquitectura en Java, inyección de código y optimización de rendimiento:
 
 - 🛠️ **Desarrollo de Mods:** Creación de mods y utilidades en **Java** (ecosistemas **Fabric** y **NeoForge**).
-- 🧩 **Compatibilidad e Integración:** Desarrollo de puentes y parches entre mods para mejorar la experiencia de juego (ej. [*QuickShulker-Inventorio-Bridge*](https://github.com/ItsYusei99/QuickShulker-Inventorio-Bridge)).
+- 🧩 **Compatibilidad e Integración:** Desarrollo de puentes y parches entre mods para mejorar la experiencia de juego (ej. [*ShulkerBridge*](https://github.com/ItsYusei99/ShulkerBridge) y [*WardenLoot-NeoForged*](https://github.com/ItsYusei99/WardenLoot-NeoForged)).
 - ⚡ **Performance:** Configuración, perfiles de memoria y optimización de servidores para alto rendimiento.
 
 ---
@@ -41,7 +41,7 @@ El modding de Minecraft es uno de mis terrenos favoritos para experimentar con a
 
 <div align="center">
   <img src="https://github-readme-stats.shion.dev/api?username=ItsYusei99&show_icons=true&theme=tokyonight&hide_border=true" alt="Estadísticas de GitHub" />
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=ItsYusei99&layout=compact&theme=tokyonight&hide_border=true" alt="Lenguajes más usados" />
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=ItsYusei99&layout=compact&theme=tokyonight&hide_border=true&hide=Jupyter%20Notebook&exclude_repo=Evidencia1IngDatosMasivos,CuadernosDatosMasivos" alt="Lenguajes más usados" />
   <br/>
   <img src="https://streak-stats.demolab.com?user=ItsYusei99&theme=tokyonight&hide_border=true" alt="Racha de contribuciones" />
 </div>
