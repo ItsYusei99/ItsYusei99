@@ -13,10 +13,4 @@ Lo demás son actividades y evidencias de materias; las dejo públicas por si a 
 
 Uso sobre todo Java, Swift, PHP y Python. Para datos he trabajado con pandas y un poco de AWS (S3, Glue, Athena).
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ItsYusei99/ItsYusei99/output/contrib-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ItsYusei99/ItsYusei99/output/contrib-light.svg">
-  <img alt="Contribuciones del último año" src="https://raw.githubusercontent.com/ItsYusei99/ItsYusei99/output/contrib-dark.svg">
-</picture>
-
 [LinkedIn](https://www.linkedin.com/in/itsyusei99/) · [jodidroks@gmail.com](mailto:jodidroks@gmail.com)
