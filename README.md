@@ -1,61 +1,22 @@
-# ¡Hola! Soy Youssef 👋 (`@itsyusei99`)
+### Hola, soy Youssef (pero mejor dime Yusei)
 
-Estudiante de **Ingeniería de Software** en Universidad Tecmilenio. Me apasiona construir cosas que funcionen bien por dentro y se sientan bien por fuera: desde diseñar flujos de datos en la nube hasta desarrollar aplicaciones nativas para **iOS** y crear **mods de Minecraft** en Java.
+Estudio Ingeniería de Software en Tecmilenio y trabajo en CT Shop. Casi todo lo que hay aquí son tareas de la uni (Java, PHP/Laravel, SwiftUI, algo de Python para datos) y mods de Minecraft que hago porque dos mods que uso no se llevan bien entre sí.
 
-Cuando no estoy escribiendo código o peleando con dependencias, probablemente me encuentres en el gimnasio o experimentando con servidores y Linux.
+**Lo que sí vale la pena ver:**
 
----
+- [PKHosting](https://github.com/ItsYusei99/PKHosting): panel web para administrar servidores de Minecraft Java. Python sin dependencias: consola por RCON, TPS, backups, gestor de mods y archivos.
+- [Create-Litematica-Bridge](https://github.com/ItsYusei99/Create-Litematica-Bridge): toma la lista de materiales de una schematic de Litematica y te da un clipboard de Create para pedírselo al Stock Keeper. También exporta la schematic a `.nbt` para la Schematicannon.
+- [ShulkerBridge](https://github.com/ItsYusei99/ShulkerBridge): hace que QuickShulker funcione con Inventorio y con las shulkers de Sophisticated Storage (NeoForge 1.21.1).
+- [WardenLoot-NeoForged](https://github.com/ItsYusei99/WardenLoot-NeoForged): port a NeoForge de Warden Loot.
 
-### 🎮 Minecraft Modding & Server Tweaks
-El modding de Minecraft es uno de mis terrenos favoritos para experimentar con arquitectura en Java, inyección de código y optimización de rendimiento:
+Lo demás son actividades y evidencias de materias; las dejo públicas por si a alguien le sirven.
 
-- 🛠️ **Desarrollo de Mods:** Creación de mods y utilidades en **Java** (ecosistemas **Fabric** y **NeoForge**).
-- 🧩 **Compatibilidad e Integración:** Desarrollo de puentes y parches entre mods para mejorar la experiencia de juego (ej. [*ShulkerBridge*](https://github.com/ItsYusei99/ShulkerBridge) y [*WardenLoot-NeoForged*](https://github.com/ItsYusei99/WardenLoot-NeoForged)).
-- ⚡ **Performance:** Configuración, perfiles de memoria y optimización de servidores para alto rendimiento.
-
----
-
-### 🛠️ Lo que suelo usar
-
-**Lenguajes & Frameworks:**
-
-[![Skills](https://skillicons.dev/icons?i=java,swift,php,laravel,postgres&theme=dark)](https://skillicons.dev)
-
-**Cloud, Data & Herramientas:**
-
-[![Tools](https://skillicons.dev/icons?i=aws,git,github,linux,vscode&theme=dark)](https://skillicons.dev)
-
-*S3 • AWS Glue • Athena • EMR • Data Lakes*
-
----
-
-### 📊 Contribuciones
+Uso sobre todo Java, Swift, PHP y Python. Para datos he trabajado con pandas y un poco de AWS (S3, Glue, Athena).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ItsYusei99/ItsYusei99/output/contrib-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ItsYusei99/ItsYusei99/output/contrib-light.svg">
-  <img alt="Animación de contribuciones" src="https://raw.githubusercontent.com/ItsYusei99/ItsYusei99/output/contrib-dark.svg">
+  <img alt="Contribuciones del último año" src="https://raw.githubusercontent.com/ItsYusei99/ItsYusei99/output/contrib-dark.svg">
 </picture>
 
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-stats.shion.dev/api?username=ItsYusei99&show_icons=true&theme=tokyonight&hide_border=true" alt="Estadísticas de GitHub" />
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=ItsYusei99&layout=compact&theme=tokyonight&hide_border=true&hide=Jupyter%20Notebook&exclude_repo=Evidencia1IngDatosMasivos,CuadernosDatosMasivos" alt="Lenguajes más usados" />
-  <br/>
-  <img src="https://streak-stats.demolab.com?user=ItsYusei99&theme=tokyonight&hide_border=true" alt="Racha de contribuciones" />
-</div>
-
----
-
-### 📫 Conectemos
-
-- 💼 **LinkedIn:** [linkedin.com/in/itsyusei99](https://www.linkedin.com/in/itsyusei99/)
-- ✉️ **Email:** [jodidroks@gmail.com](mailto:jodidroks@gmail.com)
-- 📸 **Instagram:** [@evil_nigga888](https://instagram.com/evil_nigga888)
-
-<br/>
-
-<div align="center">
-  <sub><i>"El código limpio es el resultado de la disciplina, no de la suerte."</i></sub>
-</div>
+[LinkedIn](https://www.linkedin.com/in/itsyusei99/) · [jodidroks@gmail.com](mailto:jodidroks@gmail.com) · [Instagram](https://instagram.com/evil_nigga888)
