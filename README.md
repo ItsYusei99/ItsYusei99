@@ -19,4 +19,4 @@ Uso sobre todo Java, Swift, PHP y Python. Para datos he trabajado con pandas y u
   <img alt="Contribuciones del último año" src="https://raw.githubusercontent.com/ItsYusei99/ItsYusei99/output/contrib-dark.svg">
 </picture>
 
-[LinkedIn](https://www.linkedin.com/in/itsyusei99/) · [jodidroks@gmail.com](mailto:jodidroks@gmail.com) · [Instagram](https://instagram.com/evil_nigga888)
+[LinkedIn](https://www.linkedin.com/in/itsyusei99/) · [jodidroks@gmail.com](mailto:jodidroks@gmail.com)
